@@ -19,7 +19,7 @@ body{
   
 </style>
 <div class="logout">
-    <a href="logout.php">Login</a>
+    <a href="logout.php">Logout</a>
 </div>    
     <div class="image">
         <img src="https://optimizewindows8.files.wordpress.com/2013/02/error.jpg"  >

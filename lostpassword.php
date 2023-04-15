@@ -1,5 +1,42 @@
 <?php session_start(); ?>
 <?php include 'header.php';?>
+<style>
+body{
+    margin: 0;
+          
+  }
+  .logout{ 
+  
+    text-align:right;
+    font-size: 25px; 
+    padding-top: 65px;
+    padding-right:55px;
+    display:block;
+  }
+  .container_desc
+  {
+    background-color:antiquewhite;  
+    align-self:center;
+    padding:75px 75px;
+    margin:20px 350px;
+    justify-self: center;
+  
+  }
+  form{
+    display: flex;
+    align-items: center;
+    border:none;
+    height:30%;
+    font-size:20px;
+    flex-direction:row;
+  
+  }
+  input{
+    flex-grow:2;
+  }
+  
+  
+</style>
 
 
 <div class="logout">

@@ -1,6 +1,6 @@
-<?php session_start(); ?>
-    
-    <?php include 'header.php';?>
+<?php session_start(); 
+    ob_start();
+     include 'header.php';?>
     <style>
 
 body{
@@ -153,6 +153,7 @@ if ($_SERVER['REQUEST_METHOD']==='POST')
          $_SESSION['Lname']=$_POST['Lname'];
          $_SESSION['role']=$_POST['role'];
          header("Location: problem.php");
+         ob_end_flush();
 
     }
     
